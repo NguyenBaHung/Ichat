@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_background_login"
+    android:padding="16dp">
+
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:id="@+id/imgAvatarRegister"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/icon_app"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/txtNameRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imgAvatarRegister"
+        android:layout_marginTop="24dp"
+        android:text="Full Name"
+        android:textColor="@color/blue700"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:inputType="textPersonName"
+        android:id="@+id/edtNameRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtNameRegister"
+        android:layout_below="@+id/txtNameRegister"
+        android:layout_marginTop="4dp"
+        android:drawableEnd="@drawable/ic_people_24dp"
+        tools:ignore="LabelFor,TextFields" />
+
+    <TextView
+        android:id="@+id/txtEmailRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtNameRegister"
+        android:layout_marginTop="8dp"
+        android:text="@string/email"
+        android:textColor="@color/blue700"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:inputType="textEmailAddress"
+        android:id="@+id/edtEmailRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtEmailRegister"
+        android:layout_marginTop="4dp"
+        android:drawableEnd="@drawable/ic_email_24dp"
+        android:textColor="@color/blue700"
+        tools:ignore="LabelFor,TextFields" />
+
+    <TextView
+        android:id="@+id/txtPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtEmailRegister"
+        android:layout_marginTop="8dp"
+        android:text="@string/password"
+        android:textColor="@color/blue700"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:inputType="textPassword"
+        android:id="@+id/edtPasswordRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPassword"
+        android:layout_marginTop="4dp"
+        android:drawableEnd="@drawable/ic_lock_24dp"
+        tools:ignore="LabelFor,TextFields" />
+
+
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/edtPasswordRegister"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/shape_button_login"
+        android:text="@string/register"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/txtRedirectLogin"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/blue700"
+        android:layout_below="@+id/btnRegister"
+        android:text="@string/have_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

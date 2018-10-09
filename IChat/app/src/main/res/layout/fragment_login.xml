@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_background_login"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:src="@drawable/icon_app"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:textAllCaps="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/email"
+        android:textColor="@color/blue700"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:textAlignment="textStart"
+        android:inputType="textEmailAddress"
+        android:id="@+id/edtEmailLogin"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:drawableStart="@drawable/ic_email_24dp"
+        tools:ignore="LabelFor,TextFields" />
+
+    <TextView
+        android:textAllCaps="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/password"
+        android:textColor="@color/blue700"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:textAlignment="textStart"
+        android:inputType="textPassword"
+        android:id="@+id/edtPasswordLogin"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:drawableStart="@drawable/ic_lock_24dp"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/shape_button_login"
+        android:text="@string/login"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/txtRedirectRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="@string/no_account"
+        android:textColor="@color/blue700"
+        android:textSize="15sp" />
+
+</LinearLayout>

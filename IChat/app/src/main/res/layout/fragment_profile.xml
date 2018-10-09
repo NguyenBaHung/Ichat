@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="4dp"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@drawable/cover_profile"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgUserImage"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_marginTop="42dp"
+            android:src="@drawable/icon_app" />
+
+        <TextView
+            android:id="@+id/txtUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:singleLine="true"
+            android:text="Nguyễn Bá Hưng"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/txtUserStatus"
+            android:textColor="@color/gray800"
+            android:textSize="14sp"
+            android:text="Defaul"
+            android:lines="@android:integer/status_bar_notification_info_maxnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:weightSum="3"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:padding="16dp"
+            android:gravity="center"
+            android:drawableTop="@drawable/ic_monochrome_photos_24dp"
+            android:layout_weight="1"
+            android:id="@+id/btnChangeUserImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/shape_button_change"
+            android:text="Chang Avatar"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:padding="16dp"
+            android:gravity="center"
+            android:drawableTop="@drawable/ic_text_format_24dp"
+            android:layout_weight="1"
+            android:id="@+id/btnChangeUserStatus"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/shape_button_change_name"
+            android:text="Chang Status"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black" />
+        <Button
+            android:padding="16dp"
+            android:gravity="center"
+            android:drawableTop="@drawable/ic_close_24dp"
+            android:layout_weight="1"
+            android:id="@+id/btnLogout"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/shape_button_logout"
+            android:text="Logout"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

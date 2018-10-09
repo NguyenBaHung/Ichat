@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">IChat</string>
+    <string name="no_account">
+            <u>No Account? Register</u>
+    </string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="wellcomes">Wellcome for you !!</string>
+    <string name="have_account">
+        <u>Do you have an account?\nRedirect on login pages</u>
+    </string>
+</resources>

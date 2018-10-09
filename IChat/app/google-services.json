@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "429657633235",
+    "firebase_url": "https://ichat-25661.firebaseio.com",
+    "project_id": "ichat-25661",
+    "storage_bucket": "ichat-25661.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:429657633235:android:04e52f64d0971d68",
+        "android_client_info": {
+          "package_name": "com.example.nbhung318.ichat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "429657633235-i68c9512dl19ict1piembhmp51pde0kh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nbhung318.ichat",
+            "certificate_hash": "223ef9bab45b92ce141154b1a1bd26a33b406a49"
+          }
+        },
+        {
+          "client_id": "429657633235-qovnl6adhjsohqbkkjq2d286su363bk8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDl1DV6nnZPo0LqI90I4nQoTY58dqfPk4E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "429657633235-qovnl6adhjsohqbkkjq2d286su363bk8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

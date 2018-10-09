@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="165dp"
+    android:layout_height="220dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:clickable="true"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardElevation="8dp"
+    android:foreground="?android:selectableItemBackground">
+    <LinearLayout
+        android:padding="8dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgAvatarUser"
+            android:layout_marginTop="4dp"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:id="@+id/txtNameUser"
+            android:layout_marginTop="6dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Nguyễn Hưng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <view
+            android:layout_marginTop="8dp"
+            android:background="@color/gray800"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <TextView
+            android:id="@+id/txtStatusUser"
+            android:layout_marginTop="6dp"
+            android:lines="3"
+            android:textSize="14sp"
+            android:text="default status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
